@@ -1,0 +1,10 @@
+###
+post http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username":"happy",
+    "userType":"user",
+    "password":"1234",
+    "email":"tara@gmail.com"
+}
